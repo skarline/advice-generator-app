@@ -29,12 +29,20 @@ async function fetchAdvice() {
 
 <template>
   <div class="card">
-    <h5>ADVICE #{{ slip.id }}</h5>
+    <h1>ADVICE #{{ slip.id }}</h1>
     <q>{{ slip.advice }}</q>
-    <img class="divider desktop" src="../assets/pattern-divider-desktop.svg" />
-    <img class="divider mobile" src="../assets/pattern-divider-mobile.svg" />
-    <button @click="fetchAdvice">
-      <img src="../assets/icon-dice.svg" />
+    <img
+      class="divider desktop"
+      src="../assets/pattern-divider-desktop.svg"
+      alt="divider"
+    />
+    <img
+      class="divider mobile"
+      src="../assets/pattern-divider-mobile.svg"
+      alt="divider"
+    />
+    <button @click="fetchAdvice" aria-label="Get new advice">
+      <img src="../assets/icon-dice.svg" alt="dice" />
     </button>
   </div>
 </template>
@@ -63,7 +71,7 @@ q {
   font-size: 28px;
   font-weight: 800;
 }
-h5 {
+h1 {
   color: hsl(150, 100%, 66%);
   font-size: 14px;
   font-weight: 600;
