@@ -27,6 +27,11 @@ Users should be able to:
 
 ![](./screenshot.png)
 
+### Links
+
+- [Solution](https://www.frontendmentor.io/solutions/advice-generator-app-with-vue-3-typescript-and-axios-LMt3DIZC-y)
+- [Live Site](https://skarline.github.io/advice-generator-app/)
+
 ## My process
 
 ### Built with
